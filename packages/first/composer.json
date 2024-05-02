@@ -1,0 +1,18 @@
+{
+    "name": "seyyed/first",
+    "description": "my first laravel package",
+    "autoload": {
+        "psr-4": {
+            "Seyyed\\First\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hassan2282",
+            "email": "taghavey.hassan@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": ">=v11.0.0"
+    }
+}
