@@ -1,10 +1,9 @@
 <?php
 
 use Seyyed\First\firstFacadeServiceProvider;
-use Seyyed\First\firstServiceProvider;
 
 return [
     App\Providers\AppServiceProvider::class,
-    firstServiceProvider::class,
+    Seyyed\First\firstServiceProvider::class,
     firstFacadeServiceProvider::class,
 ];
