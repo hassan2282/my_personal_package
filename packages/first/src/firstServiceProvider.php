@@ -21,6 +21,7 @@ class firstServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/config/config.php' => config_path('first.php'),
             __DIR__.'/resources/views' => base_path('resources/views/first'),
+            __DIR__.'/database/migrations' => database_path('/migrations'),
         ]);
     }
 }
